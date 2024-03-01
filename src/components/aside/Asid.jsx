@@ -17,6 +17,11 @@ import {
   s3,
   s4,
   s5,
+  t1,
+  t2,
+  t3,
+  t4,
+  t5,
 } from "../../imgs";
 export default class Asid extends Component {
   render() {
@@ -123,7 +128,7 @@ export default class Asid extends Component {
                   Получить подробную <span>информацию</span>
                 </h1>
                 <p>
-                  Просто заполните форму, наш менеджер свяжется с вами в
+                  Просто заполните форму, наш менеджер свяжетсяс вами в
                   ближайшее время
                 </p>
                 <div className="inputs">
@@ -140,11 +145,53 @@ export default class Asid extends Component {
             </div>
           </div>
           <div className="container">
+            <div className="team">
+              <h2>
+                Наша <span>команда</span>
+              </h2>
+              <div className="team_cards">
+                <div className="team_card">
+                  <img src={t1} alt="person" />
+                  <p className="name">Войнич Дарья</p>
+                  <p className="level">Заместитель директора по продажам</p>
+                  <p className="p_num">+375 (17) 270-53-77 (317)</p>
+                </div>
+                <div className="team_card">
+                  <img src={t2} alt="person" />
+                  <p className="name">Войнич Дарья</p>
+                  <p className="level">Заместитель директора по продажам</p>
+                  <p className="p_num">+375 (17) 270-53-77 (317)</p>
+                </div>
+                <div className="team_card">
+                  <img src={t3} alt="person" />
+                  <p className="name">Войнич Дарья</p>
+                  <p className="level">Заместитель директора по продажам</p>
+                  <p className="p_num">+375 (17) 270-53-77 (317)</p>
+                </div>
+                <div className="team_card">
+                  <img src={t4} alt="person" />
+                  <p className="name">Войнич Дарья</p>
+                  <p className="level">Заместитель директора по продажам</p>
+                  <p className="p_num">+375 (17) 270-53-77 (317)</p>
+                </div>
+                <div className="team_card">
+                  <img src={t5} alt="person" />
+                  <p className="name">Войнич Дарья</p>
+                  <p className="level">Заместитель директора по продажам</p>
+                  <p className="p_num">+375 (17) 270-53-77 (317)</p>
+                </div>
+              </div>
+              <div className="btns">
+                <button className="btn">Наша команда</button>
+              </div>
+            </div>
+          </div>
+          <div className="container">
             <div className="news">
               <h1>Новости</h1>
               <div className="news_card">
                 <div id="imd" className="card">
-                  <img  src={card1} alt="" />
+                  <img src={card1} alt="" />
                   <p className="date">28.01.2022</p>
                   <p className="lorem">
                     "ЛеанГрупп" серебряный призер EcoVadis!

@@ -18,6 +18,11 @@ import card2 from "./card2.svg";
 import card3 from "./card3.svg";
 import links from "./links.svg";
 import bt from "./backtop.svg";
+import t1 from "./t1.svg";
+import t2 from "./t2.svg";
+import t3 from "./t3.svg";
+import t4 from "./t4.svg";
+import t5 from "./t5.svg";
 export {
   logo,
   bard,
@@ -39,4 +44,9 @@ export {
   card3,
   links,
   bt,
-    };
+  t1,
+  t2,
+  t3,
+  t4,
+  t5,
+};
