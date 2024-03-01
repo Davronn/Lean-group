@@ -12,9 +12,31 @@ import p3 from "./product3.svg";
 import p4 from "./product4.svg";
 import p5 from "./product5.svg";
 import p1 from "./product1.svg";
-import bg2 from './bg2.svg'
-import card1 from './card1.svg'
-import card2 from './card2.svg'
-import card3 from './card3.svg'
-import links from './links.svg'
-export { logo, bard, bg1,bg2, about, s1, s2, s3, s4, s5, p1, p2, p3, p4, p5 ,card1,card2,card3,links};
+import bg2 from "./bg2.svg";
+import card1 from "./card1.svg";
+import card2 from "./card2.svg";
+import card3 from "./card3.svg";
+import links from "./links.svg";
+import bt from "./backtop.svg";
+export {
+  logo,
+  bard,
+  bg1,
+  bg2,
+  about,
+  s1,
+  s2,
+  s3,
+  s4,
+  s5,
+  p1,
+  p2,
+  p3,
+  p4,
+  p5,
+  card1,
+  card2,
+  card3,
+  links,
+  bt,
+    };

@@ -88,6 +88,12 @@ footer {
         margin-top: 40px;
         color: rgb(128, 128, 128);
       }
+      .backtop{
+        position: fixed;
+        right: 50px;
+        bottom :50px;
+        cursor: pointer;
+      }
     }
   }
 }

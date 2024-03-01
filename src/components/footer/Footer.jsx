@@ -1,8 +1,16 @@
 import React, { Component } from "react";
 import "./footer.scss";
-import { links, logo } from "../../imgs";
+import { bt, links, logo } from "../../imgs";
 export default class Footer extends Component {
+  
+  handleBacktop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
   render() {
+    
     return (
       <>
         <footer>
@@ -65,6 +73,7 @@ export default class Footer extends Component {
               </div>
               <p className="f">p© 2022 Leangroup. All Rights Reserved. <br /> Разработка и продвижение
               сайтов SkyWeb.by</p>
+              <img onClick={this.handleBacktop} className="backtop" src={bt} alt="" />
             </div>
           </div>
         </footer>
