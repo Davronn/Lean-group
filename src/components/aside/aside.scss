@@ -9,6 +9,14 @@
   }
 }
 
+@media only screen and (max-width: 716px) {
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+}
+
 @media only screen and (max-width: 472px) {
   .sertifikat_imgs {
     width: 100%;
@@ -214,6 +222,7 @@ aside {
     align-items: center;
     height: 376px;
     box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.16);
+    margin-top: 60px;
     .info_text {
       display: flex;
       flex-direction: column;
@@ -229,7 +238,7 @@ aside {
         }
       }
       p {
-        width: 400px;
+        max-width: 400px;
         font-family: Montserrat;
         font-size: 15px;
         font-weight: 400;
@@ -257,7 +266,7 @@ aside {
         }
       }
       .comment {
-        width: 446px;
+        max-width: 446px;
         height: 80px;
         border-radius: 4px;
         border: 1px;
@@ -273,10 +282,63 @@ aside {
         padding: 10px, 20px, 10px, 20px;
         border-radius: 4px;
         gap: 10px;
-        background:rgba(239, 124, 0, 1);
+        background: rgba(239, 124, 0, 1);
         border: 1px solid rgba(239, 124, 0, 1);
         color: #fff;
       }
+    }
+  }
+  .news {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    padding: 10px;
+    img {
+      max-width: 95%;
+      height: auto;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      letter-spacing: 0px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .news_card {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .card {
+        text-align: left;
+        max-width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+        #imd {
+          max-width: 300px;
+        }
+        .date {
+          color: rgba(145, 147, 153, 1);
+          margin-top: 10px;
+          margin-bottom: 8px;
+          font-size: 13px;
+          font-weight: 500;
+          line-height: 13px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+      }
+    }
+    .btn {
+      padding: 12px 20px;
+      border-radius: 61px;
+      border: 1px solid rgba(239, 124, 0, 1);
+      gap: 10px;
+      background: none;
+      margin-top: 50px;
     }
   }
 }

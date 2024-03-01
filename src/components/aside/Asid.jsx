@@ -1,24 +1,28 @@
-import React, { Component } from 'react'
-import "./aside.scss"
-import{ about,
-bg1,
-bg2,
-p1,
-p2,
-p3,
-p4,
-p5,
-s1,
-s2,
-s3,
-s4,
-s5,
+import React, { Component } from "react";
+import "./aside.scss";
+import {
+  about,
+  bg1,
+  bg2,
+  card1,
+  card2,
+  card3,
+  p1,
+  p2,
+  p3,
+  p4,
+  p5,
+  s1,
+  s2,
+  s3,
+  s4,
+  s5,
 } from "../../imgs";
 export default class Asid extends Component {
   render() {
     return (
       <>
-      <aside>
+        <aside>
           <div
             style={{
               backgroundImage: `url(${bg1})`,
@@ -126,13 +130,46 @@ export default class Asid extends Component {
                   <input type="text" placeholder="Ваше имя" />
                   <input type="number" placeholder="+375 (29) 0000000" />
                 </div>
-                <input className='comment' type="text" placeholder="Комментарий" />
+                <input
+                  className="comment"
+                  type="text"
+                  placeholder="Комментарий"
+                />
                 <button className="btn">Получить информацию</button>
               </div>
             </div>
           </div>
+          <div className="container">
+            <div className="news">
+              <h1>Новости</h1>
+              <div className="news_card">
+                <div id="imd" className="card">
+                  <img  src={card1} alt="" />
+                  <p className="date">28.01.2022</p>
+                  <p className="lorem">
+                    "ЛеанГрупп" серебряный призер EcoVadis!
+                  </p>
+                </div>
+                <div className="card">
+                  <img src={card2} alt="" />
+                  <p className="date">28.01.2022</p>
+                  <p className="lorem">
+                    "ЛеанГрупп" серебряный призер EcoVadis!
+                  </p>
+                </div>
+                <div className="card">
+                  <img src={card3} alt="" />
+                  <p className="date">28.01.2022</p>
+                  <p className="lorem">
+                    "ЛеанГрупп" серебряный призер EcoVadis!
+                  </p>
+                </div>
+              </div>
+              <button className="btn">Все новости</button>
+            </div>
+          </div>
         </aside>
       </>
-    )
+    );
   }
 }

@@ -1,0 +1,93 @@
+footer {
+  margin-top: 60px;
+  background: rgba(0, 16, 61, 0.06);
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 1135px;
+    .footer {
+      margin-top: 20px;
+      padding: 20px;
+      .footer_imgs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .line {
+        width: 100%;
+        height: 1px;
+        background: rgba(76, 76, 76, 0.5);
+        border-radius: 2px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+      }
+      .links {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        ul {
+          margin-bottom: 24px;
+          p {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 28px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin-bottom: 26px;
+          }
+          li {
+            list-style: none;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin-bottom: 16px;
+            cursor: pointer;
+          }
+          li:hover {
+            color: rgba(239, 124, 0, 1);
+            transition: 0.5s;
+          }
+        }
+        .links_num {
+          display: flex;
+          flex-direction: column;
+          span {
+            color: rgba(239, 124, 0, 1);
+            margin-bottom: 12px;
+          }
+          p {
+            margin-bottom: 12px;
+          }
+        }
+        .links_numm {
+          display: flex;
+          flex-direction: column;
+          span {
+            color: rgba(239, 124, 0, 1);
+            margin-bottom: 12px;
+          }
+          p {
+            margin-bottom: 12px;
+          }
+        }
+      }
+      .f {
+        //styleName: fontFootnote;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 40px;
+        color: rgb(128, 128, 128);
+      }
+    }
+  }
+}

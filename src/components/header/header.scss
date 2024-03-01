@@ -1,18 +1,20 @@
 @media only screen and (max-width: 1074px) {
   
-  ul {
-    .dropdown {
-      display: none;
-      span {
+  .header{
+    ul {
+      .dropdown {
+        display: none;
+        span {
+          display: none;
+        }
+        .dropdown-content {
+          display: none;
+        }
+      }
+  
+      li {
         display: none;
       }
-      .dropdown-content {
-        display: none;
-      }
-    }
-
-    li {
-      display: none;
     }
   }
 }
