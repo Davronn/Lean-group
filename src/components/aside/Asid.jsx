@@ -1,11 +1,24 @@
-import React, { Component } from "react";
-import "./aside.scss";
-import { about, bg1, p1, p2, p3, p4, p5, s1, s2, s3, s4, s5 } from "../../imgs";
-export default class Aside extends Component {
+import React, { Component } from 'react'
+import "./aside.scss"
+import{ about,
+bg1,
+bg2,
+p1,
+p2,
+p3,
+p4,
+p5,
+s1,
+s2,
+s3,
+s4,
+s5,
+} from "../../imgs";
+export default class Asid extends Component {
   render() {
     return (
       <>
-        <aside>
+      <aside>
           <div
             style={{
               backgroundImage: `url(${bg1})`,
@@ -74,7 +87,9 @@ export default class Aside extends Component {
           </div>
           <div className="container">
             <div className="product">
-              <h1>Наша <span>продукция</span></h1>
+              <h1>
+                Наша <span>продукция</span>
+              </h1>
               <div className="produkt_btns">
                 <button className="btn">Ламинатные тубы</button>
                 <button className="btn">Экструзионные тубы</button>
@@ -90,8 +105,34 @@ export default class Aside extends Component {
               <button className="btn">Перейти в каталог</button>
             </div>
           </div>
+          <div className="container">
+            <div
+              className="info"
+              style={{
+                backgroundImage: `url(${bg2})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+            >
+              <div className="info_text">
+                <h1>
+                  Получить подробную <span>информацию</span>
+                </h1>
+                <p>
+                  Просто заполните форму, наш менеджер свяжется с вами в
+                  ближайшее время
+                </p>
+                <div className="inputs">
+                  <input type="text" placeholder="Ваше имя" />
+                  <input type="number" placeholder="+375 (29) 0000000" />
+                </div>
+                <input className='comment' type="text" placeholder="Комментарий" />
+                <button className="btn">Получить информацию</button>
+              </div>
+            </div>
+          </div>
         </aside>
       </>
-    );
+    )
   }
 }

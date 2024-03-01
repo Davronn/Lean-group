@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Aside from "./components/aside/Aside";
+import Asid from "./components/aside/Asid";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <>
       <Header />
-      <Aside/>
+      <Asid/>
       <Footer/>
       </>
     );

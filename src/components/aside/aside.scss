@@ -18,19 +18,17 @@
       margin-bottom: 10px;
     }
   }
-  
 }
 
 @media only screen and (max-width: 472px) {
-    .produkt_imgs{
-        img{
-            margin-bottom: 10px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-      }
+  .produkt_imgs {
+    img {
+      margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
-
 
 aside {
   background-repeat: no-repeat;
@@ -183,24 +181,22 @@ aside {
         border: 1px solid rgba(239, 124, 0, 1);
         transition: 0.5s;
         color: #fff;
-
       }
     }
     .btn {
-        padding: 12px 20px;
-        border-radius: 61px;
-        border: 1px solid rgba(239, 124, 0, 1);
-        gap: 10px;
-        background: none;
-        margin-top: 50px;
-      }
-      .btn:hover {
-        background-color: rgba(239, 124, 0, 1);
-        border: 1px solid rgba(239, 124, 0, 1);
-        transition: 0.5s;
-        color: #fff;
-
-      }
+      padding: 12px 20px;
+      border-radius: 61px;
+      border: 1px solid rgba(239, 124, 0, 1);
+      gap: 10px;
+      background: none;
+      margin-top: 50px;
+    }
+    .btn:hover {
+      background-color: rgba(239, 124, 0, 1);
+      border: 1px solid rgba(239, 124, 0, 1);
+      transition: 0.5s;
+      color: #fff;
+    }
     .produkt_imgs {
       width: 100%;
       display: flex;
@@ -209,6 +205,77 @@ aside {
       img:hover {
         box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.16);
         transition: 0.5s;
+      }
+    }
+  }
+  .info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 376px;
+    box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.16);
+    .info_text {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: left;
+        span {
+          color: rgba(239, 124, 0, 1);
+        }
+      }
+      p {
+        width: 400px;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 17px;
+        margin-bottom: 25px;
+      }
+      .inputs {
+        display: flex;
+        flex-wrap: wrap;
+        input {
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0px;
+          text-align: left;
+          width: 217px;
+          height: 40px;
+          top: 12px;
+          left: 249px;
+          border: 1px solid rgba(0, 16, 61, 0.12);
+          margin-right: 10px;
+        }
+      }
+      .comment {
+        width: 446px;
+        height: 80px;
+        border-radius: 4px;
+        border: 1px;
+        border: 1px solid rgba(0, 16, 61, 0.12);
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .btn {
+        width: 225px;
+        height: 40px;
+        top: 300px;
+        left: 20px;
+        padding: 10px, 20px, 10px, 20px;
+        border-radius: 4px;
+        gap: 10px;
+        background:rgba(239, 124, 0, 1);
+        border: 1px solid rgba(239, 124, 0, 1);
+        color: #fff;
       }
     }
   }
