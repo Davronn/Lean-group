@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./aside.scss";
-import { about, bg1 } from "../../imgs";
+import { about, bg1, p1, p2, p3, p4, p5, s1, s2, s3, s4, s5 } from "../../imgs";
 export default class Aside extends Component {
   render() {
     return (
@@ -31,7 +31,9 @@ export default class Aside extends Component {
           </div>
           <div className="container">
             <div className="aside_about">
-              <h1>О компании <span>LEANGROUP</span></h1>
+              <h1>
+                О компании <span>LEANGROUP</span>
+              </h1>
               <div className="about">
                 <div className="about_img">
                   <img src={about} alt="" />
@@ -54,6 +56,38 @@ export default class Aside extends Component {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="sertifikat">
+              <h1 className="sertifikat_title">
+                Качество продукции подтверждают <span>сертификаты</span>
+              </h1>
+              <div className="sertifikat_imgs">
+                <img src={s1} alt="" />
+                <img src={s2} alt="" />
+                <img src={s3} alt="" />
+                <img src={s4} alt="" />
+                <img src={s5} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="product">
+              <h1>Наша <span>продукция</span></h1>
+              <div className="produkt_btns">
+                <button className="btn">Ламинатные тубы</button>
+                <button className="btn">Экструзионные тубы</button>
+                <button className="btn">Другая упаковка</button>
+              </div>
+              <div className="produkt_imgs">
+                <img src={p1} alt="" />
+                <img src={p2} alt="" />
+                <img src={p3} alt="" />
+                <img src={p4} alt="" />
+                <img src={p5} alt="" />
+              </div>
+              <button className="btn">Перейти в каталог</button>
             </div>
           </div>
         </aside>
